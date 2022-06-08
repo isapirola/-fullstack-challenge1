@@ -1,7 +1,7 @@
 {
   "name": "api",
   "version": "0.0.0",
-  "main": "server.js",
+  "main": "index.js",
   "type": "module",
   "license": "MIT",
   "author": {
@@ -9,7 +9,7 @@
     "email": "isabelapirola@alunos.utfpr.edu.br"
   },
   "scripts": {
-    "dev": "node server.js"
+    "dev": "node api/index.js"
   },
   "dependencies": {
     "@koa/cors": "^3.3.0",
